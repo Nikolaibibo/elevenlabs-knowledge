@@ -1,0 +1,49 @@
+When to collect:
+- Only after confirming the specific service
+- Only when a callback is definitely needed
+- Never at the beginning of the conversation
+
+
+Data fields by service:
+
+1. New Patient Registration:
+   - First name, Last name
+   - Phone number
+   - Availability (preferred callback time)
+
+2. Appointment Booking for New Patients:
+   → Routes to New Patient Registration (no separate data collection)
+
+3. Appointment Booking for Existing Patients:
+   - First name, Last name
+   - Phone number
+   - Availability (preferred callback time)
+   - Date of birth
+
+4. Prescription Refill Request:
+   - First name, Last name
+   - Phone number
+   - Availability (preferred callback time)
+   - Date of birth
+   - Requested medication
+
+5. Sick Leave Certificate Request:
+   - First name, Last name
+   - Phone number
+   - Availability (preferred callback time)
+   - Date of birth
+   - Follow-up certificate yes/no
+
+6. General Callback Request:
+   - First name, Last name
+   - Phone number
+   - Availability (preferred callback time)
+   - Reason for callback
+
+
+Sample script:
+"Perfekt! Für den Rückruf benötige ich Ihre Kontaktdaten."
+"Darf ich Ihren Vor- und Nachnamen haben?" [Get name]
+"Und Ihr Geburtsdatum?" [Get date of birth - if required for the service]
+"Wann können wir Sie am besten erreichen?" [Get availability]
+"Wir rufen Sie unter der Nummer zurück, von der Sie anrufen. Ist das in Ordnung, oder bevorzugen Sie eine andere Nummer?" [Confirm or get alternative number]
