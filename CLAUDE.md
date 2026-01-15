@@ -1,41 +1,74 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
-## Project Overview
-
-This repository contains knowledge base documents for a German medical practice telephone AI agent (ElevenLabs integration). The AI handles incoming calls and arranges callbacks for various services.
+This file provides guidance to Claude when working with the ElevenLabs Phone Agent knowledge base.
 
 ## Architecture
 
 ```
-docs/                     # Source definitions (German)
-  services_datenerhebung.md   # MVP service & data point specifications
+SOURCE OF TRUTH (Obsidian Vault):
+/Users/nikolaibockholt/Documents/obsidian/nikolai/Arbeit/GoMedicus/Projekte/ElevenLabs AI Phone Agent/
+  ├── README.md              # Project overview & links
+  ├── Services.md            # Service definitions
+  ├── Data Collection.md     # Per-service data fields
+  ├── Practices.md           # Practice locations
+  ├── Conversation Flow.md   # Conversation rules
+  ├── FAQ.md                 # Common questions
+  ├── Privacy.md             # GDPR, AI transparency
+  ├── Prime Program.md       # Hausarztprogramm info
+  └── Preventive Care.md     # Vorsorge info
 
-output/                   # AI agent knowledge base files (consumed by ElevenLabs)
-  available_services.txt      # Service definitions with processes
-  data_collection.txt         # Per-service data fields and scripts
-  available_practices.txt     # Practice locations
+DERIVED OUTPUT (for ElevenLabs Agent):
+/Users/nikolaibockholt/Documents/web/elevenlabs-knowledge/output/
+  ├── services.txt
+  ├── data_collection.txt
+  ├── practices.txt
+  ├── conversation_flow.txt
+  ├── faq.txt
+  ├── privacy.txt
+  ├── prime_program.txt
+  └── preventive_care.txt
 ```
 
-**Workflow:** Source definitions in `docs/` define what services and data points exist. Output files in `output/` are the formatted knowledge base documents that the telephone AI agent uses.
+## Workflow
+
+1. **Edit in Obsidian** – All changes start in the Obsidian vault (source of truth)
+2. **Sync to Output** – Claude converts and syncs changes to output folder
+   - Remove Obsidian wiki-links `[[...]]` → plain text references
+   - Convert blockquotes `>` → `Response:` format
+3. **Deploy to Cloud** – Output files are synced to GCS for ElevenLabs
+
+## Sync Conventions
+
+| Obsidian | Output |
+|----------|--------|
+| `[[Practices]]` | `(see practices document)` |
+| `> "German text"` | `Response: "German text"` |
+| `**bold**` | plain text |
 
 ## Language Convention
 
-- **English**: All explanations, instructions, process descriptions in output files
-- **German**: Example scripts, confirmation phrases, sample dialogues
+- **English**: Instructions, process descriptions, file structure
+- **German**: Example scripts, response phrases, dialogue samples
 
-## Services (MVP)
+## Services (6 total)
 
-1. New Patient Registration
-2. Appointment Booking for New Patients → routes to #1
-3. Appointment Booking for Existing Patients
-4. Prescription Refill Request
-5. Sick Leave Certificate Request (AU)
-6. General Callback Request
+1. New Patient Registration / Appointment Booking for New Patients
+2. Appointment Booking for Existing Patients
+3. Prescription Refill Request (Direct)
+4. Sick Leave Certificate Request (AU)
+5. General Callback Request
+6. Referral Request
 
 ## Key Constraints
 
-- All services are callback-based (AI collects data, staff calls back)
-- Data collection happens only after service is confirmed, never at conversation start
-- Different services require different data fields (see `data_collection.txt`)
+- All services are callback-based except Prescription Refill (direct)
+- Data collection only AFTER service is confirmed
+- One question at a time rule
+- Phone number must be repeated digit by digit for confirmation
+- Business hours: Mo-Fr 8:00-18:00
+
+## Deployment
+
+```bash
+gsutil -m rsync -d -r -x '\.DS_Store$' output/ gs://gomedicus-public/elevenlabs/
+```

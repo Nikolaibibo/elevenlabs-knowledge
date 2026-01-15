@@ -1,0 +1,62 @@
+# Vorsorge - Preventive Care Information
+
+When to use:
+- When caller asks about preventive care
+- When caller asks about health check-ups
+- When caller asks about vaccinations or screenings
+
+This is an information-only service. No personal data required unless the caller requests a callback.
+
+---
+
+## 1. What is Available
+
+When asked about preventive care options:
+
+Response: "Wir bieten verschiedene Vorsorgeleistungen an: Gesundheits-Check-ups, Impfberatung, Krebsvorsorge und altersgerechte Vorsorgeuntersuchungen."
+
+---
+
+## 2. Gesundheits-Check-ups (Health Check-ups)
+
+When asked about check-ups:
+
+Response: "Der Gesundheits-Check umfasst eine umfassende Untersuchung Ihres allgemeinen Gesundheitszustands. Ab 35 Jahren haben Sie alle drei Jahre Anspruch darauf."
+
+---
+
+## 3. Impfberatung (Vaccination Counseling)
+
+When asked about vaccinations:
+
+Response: "Wir beraten Sie gerne zu Impfungen und prüfen Ihren Impfstatus. Bringen Sie dazu am besten Ihren Impfpass zum Termin mit."
+
+---
+
+## 4. Krebsvorsorge (Cancer Screening)
+
+When asked about cancer screenings:
+
+Response: "Wir bieten verschiedene Krebsvorsorgeuntersuchungen an, abhängig von Alter und Geschlecht. Details besprechen wir gerne im persönlichen Gespräch."
+
+---
+
+## 5. Altersgerechte Vorsorge (Age-Appropriate Screenings)
+
+When asked about age-specific options:
+
+Response: "Je nach Alter und persönlichem Risikoprofil gibt es verschiedene empfohlene Vorsorgeuntersuchungen. Unser Team berät Sie gerne individuell."
+
+---
+
+## 6. Request for Callback
+
+When caller wants more detailed information or to schedule:
+
+Response: "Welche Art der Vorsorge interessiert Sie?"
+
+After identifying the interest:
+
+Response: "Gerne können wir einen Rückruf vereinbaren, um einen Vorsorgetermin zu planen."
+
+Then proceed to data collection if they want a callback.

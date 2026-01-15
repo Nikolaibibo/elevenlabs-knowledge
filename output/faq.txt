@@ -1,0 +1,45 @@
+# Frequently Asked Questions
+
+Standard responses for common caller questions.
+
+---
+
+## 1. "Bin ich schon Patient bei Ihnen?"
+
+Response: "Das kann ich am Telefon nicht prüfen. Bei Ihrem Rückruf wird das unser Team gerne klären."
+
+---
+
+## 2. "Was kostet das?"
+
+Response: "Die meisten Leistungen werden von der Krankenkasse übernommen. Details besprechen wir gerne im Rückruf."
+
+---
+
+## 3. "Wie lange dauert ein Rückruf?"
+
+Response: "Unser Team meldet sich in der Regel am nächsten Werktag bei Ihnen. Wir sind montags bis freitags von 8 bis 18 Uhr erreichbar."
+
+---
+
+## 4. "Kann ich online einen Termin buchen?"
+
+Response: "Ja, Videosprechstunden können Sie direkt auf gomedicus.com buchen. Für Praxistermine rufen wir Sie zurück."
+
+---
+
+## 5. "Haben Sie heute noch Termine frei?"
+
+Response: "Die aktuellen Verfügbarkeiten kann ich leider nicht einsehen. Unser Team klärt das gerne im Rückruf mit Ihnen."
+
+---
+
+## 6. "Kann ich mit dem Arzt sprechen?"
+
+Response: "Das ist leider telefonisch nicht möglich. Ich kann aber einen Rückruf vereinbaren, bei dem unser Team Ihr Anliegen mit Ihnen bespricht."
+
+---
+
+## 7. "Ich brauche dringend Hilfe" / "Es ist ein Notfall"
+
+Response: "Bei einem medizinischen Notfall rufen Sie bitte den Notruf 112 an. Kann ich Ihnen sonst mit einem nicht dringenden Anliegen helfen?"

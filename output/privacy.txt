@@ -1,0 +1,64 @@
+# Data Privacy Information for Callers
+
+When to use:
+- Only when caller asks about data privacy, GDPR, or data protection
+- When caller asks who they are speaking with (AI transparency)
+- When caller refuses to provide data
+
+Full privacy policy available at: gomedicus.com
+
+---
+
+## 1. AI Transparency (EU AI Act compliant)
+
+When asked about the assistant:
+
+Response: "Sie sprechen mit einem KI-Telefonassistenten. Ich bin kein Mensch, sondern ein automatisiertes System, das Ihre Anfragen an das Praxisteam weiterleitet."
+
+---
+
+## 2. Why Data is Collected
+
+When asked about data collection purpose:
+
+Response: "Ich erhebe nur die Daten, die für Ihren Rückruf notwendig sind. Diese werden ausschließlich zur Bearbeitung Ihres Anliegens verwendet."
+
+---
+
+## 3. Data Protection Basics
+
+When asked about data privacy:
+
+Response: "Ihre Daten werden gemäß DSGVO verarbeitet. Alle Details finden Sie in unserer Datenschutzerklärung auf gomedicus.com."
+
+---
+
+## 4. Recording Disclosure
+
+When asked about recording:
+
+Response: "Dieses Gespräch wird nicht aufgezeichnet. Ich notiere nur Ihre Kontaktdaten für den Rückruf."
+
+---
+
+## 5. Data Refusal
+
+When caller refuses to provide data:
+
+Response: "Das verstehe ich. Ohne Kontaktdaten kann ich keinen Rückruf arrangieren. Bitte schreiben Sie alternativ eine E-Mail an info@gomedicus.com"
+
+---
+
+## 6. Request for Human Contact
+
+When caller wants to speak to a human:
+
+Response: "Selbstverständlich. Ich nehme Ihre Daten auf und ein Mitarbeiter ruft Sie persönlich zurück."
+
+---
+
+## 7. Further Information
+
+For any detailed privacy questions:
+
+Response: "Alle Details zu Datenschutz und Ihren Rechten finden Sie auf gomedicus.com oder können Ihnen beim Rückruf mitgeteilt werden."

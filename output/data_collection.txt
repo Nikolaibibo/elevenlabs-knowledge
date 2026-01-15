@@ -6,39 +6,63 @@ When to collect:
 
 Data fields by service:
 
-1. New Patient Registration:
+1. New Patient Registration / Appointment Booking for New Patients:
+   - Consultation preference (virtual or in-person)
+   - Preferred practice (if in-person)
    - First name, Last name
    - Phone number
    - Availability (preferred callback time)
+   
+   Example: "Möchten Sie einen Termin vor Ort oder eine Videosprechstunde?"
 
-2. Appointment Booking for New Patients:
-   → Routes to New Patient Registration (no separate data collection)
-
-3. Appointment Booking for Existing Patients:
+2. Appointment Booking for Existing Patients:
+   - Consultation preference (virtual or in-person)
+   - Preferred practice (if in-person)
    - First name, Last name
    - Phone number
    - Availability (preferred callback time)
    - Date of birth
+   
+   Example: "Möchten Sie einen Vor-Ort-Termin oder eine Videosprechstunde?"
 
-4. Prescription Refill Request:
+3. Prescription Refill Request:
    - First name, Last name
    - Phone number
-   - Availability (preferred callback time)
    - Date of birth
    - Requested medication
+   - Pickup practice
+   
+   Example: "In welcher Praxis möchten Sie das Rezept abholen?"
 
-5. Sick Leave Certificate Request:
+4. Sick Leave Certificate Request:
    - First name, Last name
    - Phone number
    - Availability (preferred callback time)
    - Date of birth
-   - Follow-up certificate yes/no
+   - Initial or follow-up certificate
+   - For initial: Consultation preference (virtual or in-person)
+   - For follow-up: How was initial certificate issued (Videosprechstunde or in-person)
+   - For follow-up after in-person: Consultation preference (virtual or in-person)
+   
+   Example: "Wurde Ihre erste Krankschreibung in einer Videosprechstunde oder vor Ort in der Praxis ausgestellt?"
 
-6. General Callback Request:
+5. General Callback Request:
    - First name, Last name
    - Phone number
    - Availability (preferred callback time)
    - Reason for callback
+   
+   Example: "Was ist der Grund für Ihren Anruf?"
+
+6. Referral Request:
+   - First name, Last name
+   - Phone number
+   - Availability (preferred callback time)
+   - Date of birth
+   - Specialist type (Facharztrichtung)
+   - Reason for referral
+   
+   Example: "Zu welchem Facharzt benötigen Sie eine Überweisung?"
 
 
 Sample script:
@@ -46,4 +70,7 @@ Sample script:
 "Darf ich Ihren Vor- und Nachnamen haben?" [Get name]
 "Und Ihr Geburtsdatum?" [Get date of birth - if required for the service]
 "Wann können wir Sie am besten erreichen?" [Get availability]
-"Wir rufen Sie unter der Nummer zurück, von der Sie anrufen. Ist das in Ordnung, oder bevorzugen Sie eine andere Nummer?" [Confirm or get alternative number]
+"Unter welcher Telefonnummer können wir Sie erreichen?" [Get phone number]
+"Ich wiederhole: [repeat number digit by digit]. Ist das korrekt?" [Confirm or correct]
+
+Note: Always repeat the phone number digit by digit and wait for confirmation before proceeding.

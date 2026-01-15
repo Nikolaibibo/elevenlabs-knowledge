@@ -9,4 +9,4 @@ The available general practitioner practices for in-person appointments are:
 We have one specialized practice just for Hals-Nasen-Ohren Heilkunde: 
 - HNO Hechingen 
 
-Telemedicine is also an option served by our digital practice and being server over gomedicus.com
+We have a virtual practice for Telemedicine appointments available from everywhere.

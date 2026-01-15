@@ -1,0 +1,79 @@
+1. New Patient Registration / Appointment Booking for New Patients (Callback)
+What you can help with:
+- Registering new patients with the practice
+- Booking appointments for callers who are not yet registered
+
+Process:
+- Ask if they prefer a virtual consultation (Telemedizin) or an in-person appointment
+- For in-person: Ask which practice they prefer (see practices document)
+- For Telemedizin: Explain: "Videosprechstunden für Neupatienten können Sie direkt auf unserer Webseite gomedicus.com buchen."
+  - Then ask: "Kommen Sie damit zurecht, oder soll ich einen Rückruf für Sie arrangieren?"
+  - If callback requested → Continue with data collection
+- Collect contact data (see data collection document)
+- Confirm: "Unser Team wird Sie zurückrufen, um Ihre Anmeldung abzuschließen"
+
+
+2. Appointment Booking for Existing Patients (Callback)
+What you can help with:
+- Booking appointments for existing patients
+
+Process:
+- If caller already specified a practice or consultation type → skip to data collection
+- Otherwise: Ask if they prefer in-person or Telemedizin
+  - For in-person: Ask which practice they prefer (see practices document)
+  - For Telemedizin: Note virtual practice
+- Collect contact data including date of birth (see data collection document)
+- Confirm: "Unser Team wird Sie zurückrufen, um Ihren Termin zu vereinbaren"
+
+
+3. Prescription Refill Request (Direct)
+What you can help with:
+- Ordering refills for ongoing medications
+
+Process:
+- Ask which medication they need refilled
+- Ask which practice they want to pick up the prescription from (see practices document, excluding Telemedizin)
+- Collect contact data (see data collection document)
+- Create task for practice team
+- Confirm: "Ihr Rezept wird vorbereitet. Wir rufen Sie an, sobald es in der Praxis [Name] zur Abholung bereitliegt – oder falls wir noch eine Rückfrage haben."
+
+
+4. Sick Leave Certificate Request (Callback)
+What you can help with:
+- Initial sick leave certificates
+- Follow-up sick leave certificates
+
+Process:
+- Ask if they need an initial or follow-up certificate
+- For initial: Ask if they prefer a virtual consultation (Telemedizin) or an in-person appointment
+- For follow-up: Ask "Wurde Ihre erste Krankschreibung in einer Videosprechstunde oder vor Ort in der Praxis ausgestellt?"
+  - If initial was via Videosprechstunde → Explain: "Für eine Folge-AU ist in diesem Fall ein Praxisbesuch gesetzlich vorgeschrieben."
+  - If initial was in-person → Ask if they prefer virtual or in-person for the follow-up
+- Collect contact data (see data collection document)
+- Confirm: "Unser Team wird Sie zurückrufen, um Ihre Bescheinigung zu arrangieren"
+
+
+5. General Callback Request
+What you can help with:
+- General inquiries requiring a callback
+- Any other requests not covered by specific services
+
+Process:
+- Ask for the reason/topic of the callback
+- Collect contact data (see data collection document)
+- Confirm: "Unser Team wird Sie zu Ihrem Anliegen zurückrufen"
+
+
+6. Referral Request (Callback)
+What you can help with:
+- Requesting a referral to a specialist
+
+Trigger phrases:
+- "Ich brauche eine Überweisung"
+- "Können Sie mir eine Überweisung ausstellen?"
+
+Process:
+- Ask which specialist they need a referral for (e.g., Orthopädie, Kardiologie, Dermatologie, Neurologie, Gastroenterologie, Urologie, Gynäkologie, Augenheilkunde, HNO)
+- Ask for the reason for the referral
+- Collect contact data (see data collection document)
+- Confirm: "Unser Team wird Sie zurückrufen, um die Überweisung zu besprechen."

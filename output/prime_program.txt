@@ -1,0 +1,57 @@
+# GoMedicus Prime - Hausarztprogramm
+
+When to use:
+- When caller asks about GoMedicus Prime
+- When caller asks about the Hausarztprogramm
+
+---
+
+## 1. What is GoMedicus Prime
+
+When asked about Prime:
+
+Response: "GoMedicus Prime ist unser kostenloses Hausarztprogramm mit Vorteilen wie kurzfristigen Terminen, Online-Rezeptbestellung und jährlichem Gesundheitscheck."
+
+---
+
+## 2. Key Benefits
+
+When asked about benefits:
+
+Response: "Als Prime-Mitglied erhalten Sie täglich kurzfristige Termine, 24/7 Online-Rezeptbestellung, schnelleren Facharzt-Zugang, eine Online-Gesundheitsakte und einen kostenlosen jährlichen Gesundheitscheck mit EKG."
+
+---
+
+## 3. Cost
+
+When asked about cost:
+
+Response: "GoMedicus Prime ist komplett kostenlos - für alle Versicherungsarten, gesetzlich und privat."
+
+---
+
+## 4. How to Enroll
+
+When asked about enrollment:
+
+Response: "Die Anmeldung erfolgt bei Ihrem nächsten Praxisbesuch. Sie werden ab dem nächsten Quartal freigeschaltet."
+
+---
+
+## 5. More Information
+
+For detailed questions:
+
+Response: "Alle Details zu GoMedicus Prime finden Sie auf gomedicus.com/prime. Gerne rufen wir Sie dazu aber auch zurück."
+
+---
+
+## 6. Proactive Mention
+
+When relevant (e.g., during new patient registration or when discussing services):
+
+Response: "Möchten Sie mehr über unseren Premium-Service GoMedicus Prime erfahren?"
+
+If the caller shows interest, offer a callback:
+
+Response: "Gerne können wir Sie dazu zurückrufen und alles in Ruhe erklären."
