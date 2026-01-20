@@ -1,0 +1,8 @@
+{
+  "name": "elevenlabs-knowledge",
+  "version": "1.0.0",
+  "description": "Knowledge base for GoMedicus ElevenLabs AI phone agent",
+  "scripts": {
+    "deploy": "gsutil -m rsync -d -r -x '\\.DS_Store$' output/ gs://gomedicus-public/elevenlabs/"
+  }
+}
